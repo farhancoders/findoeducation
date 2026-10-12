@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "siteTitle": "Faith Education | Agen Pelajar & Migrasi di Sydney",
+    "siteDescription": "Faith Education adalah agen pelajar dan migrasi terpercaya berbasis Sydney. Dari perguruan vokasi hingga sarjana, magister, dan residensi permanen, kami merencanakan dan mendukung pendidikan Australia Anda secara menyeluruh.",
+    "homeTitle": "Faith Education | Belajar di Australia, Agen Pelajar & Migrasi Sydney",
+    "homeDescription": "Agen pendidikan dan migrasi terpercaya di Sydney. Rencanakan studi Australia Anda dari perguruan vokasi hingga magister dan residensi permanen dengan dukungan 360 derajat Faith Education.",
+    "servicesTitle": "Layanan Kami",
+    "servicesDescription": "Layanan agen pelajar dan migrasi di Sydney: perencanaan studi, pemilihan perguruan tinggi, dukungan visa, penjemputan bandara, bantuan akomodasi, dan perawatan berkelanjutan.",
+    "aboutTitle": "Siapa Kami",
+    "aboutDescription": "Temui tim Faith Education: mantan dosen universitas, Konselor Agen Pendidikan Berkualifikasi, manajer pemasaran berpengalaman, dan konsultan migrasi terdaftar.",
+    "contactTitle": "Hubungi Kami",
+    "contactDescription": "Hubungi Faith Education di Sydney atau Jakarta. Ajukan pertanyaan tentang studi di Australia, visa pelajar, atau migrasi dan kami akan segera merespon.",
+    "privacyTitle": "Kebijakan Privasi & Cookie",
+    "privacyDescription": "Cara Faith Education mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda, serta penggunaan cookie pada situs ini."
+  },
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "cta": "Konsultasi Gratis",
+    "skip": "Lewati ke konten",
+    "homeAria": "Faith Education, beranda",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "primary": "Utama",
+    "mobile": "Seluler",
+    "breadcrumb": "Jejak navigasi"
+  },
+  "footer": {
+    "tagline": "Agen Pendidikan dan Migrasi Terpercaya. Kami merencanakan dan mendukung pendidikan Anda di Australia dari langkah pertama hingga residensi permanen.",
+    "explore": "Jelajahi",
+    "privacy": "Privasi & Cookie",
+    "getInTouch": "Hubungi kami",
+    "country": "Australia",
+    "rights": "Semua hak dilindungi."
+  },
+  "hero": {
+    "eyebrow": "Agen Pelajar & Migrasi · Sydney",
+    "title": "Jalan Anda menuju pendidikan *Australia*, direncanakan dari awal hingga akhir.",
+    "body": "Faith Education adalah agen pendidikan dan migrasi yang terpercaya. Kami memberikan solusi terbaik untuk kebutuhan Anda, mulai dari memilih perguruan tinggi yang tepat hingga menyesuaikan diri dengan kehidupan dan pekerjaan di Australia.",
+    "ctaPrimary": "Pesan konsultasi gratis",
+    "ctaSecondary": "Jelajahi layanan kami",
+    "stats": [
+      {
+        "value": "10",
+        "label": "Perguruan tinggi vokasi yang direkomendasikan"
+      },
+      {
+        "value": "5+5",
+        "label": "Institusi sarjana & magister terpilih"
+      },
+      {
+        "value": "25+",
+        "label": "Tahun pengalaman kepemimpinan senior dalam tim kami"
+      },
+      {
+        "value": "2",
+        "label": "Kantor: Sydney & Jakarta"
+      }
+    ]
+  },
+  "pathways": {
+    "eyebrow": "Jalur Faith",
+    "title": "Empat tahap. *Satu mitra* di samping Anda.",
+    "intro": "Pendidikan adalah fondasi masyarakat berbasis pengetahuan, dan kami memiliki keyakinan kuat pada sistem pendidikan Australia yang terstruktur dengan baik. Karena itu kami mendukung Anda dari awal hingga akhir, dan kami menyebutnya dukungan 360 derajat.",
+    "items": [
+      {
+        "tag": "Mulai di sini",
+        "title": "Vokasional",
+        "body": "Kami menyaring sepuluh perguruan tinggi bisnis terbaik di Australia dan merekomendasikan yang paling cocok. Persyaratan masuk hanya penyelesaian Tahun 12 dan skor IELTS 5.5.",
+        "points": [
+          "10 perguruan tinggi yang direkomendasikan",
+          "Tahun 12 + IELTS 5.5"
+        ]
+      },
+      {
+        "tag": "Kembangkan",
+        "title": "Sarjana",
+        "body": "Lima perguruan tinggi dan universitas yang dipilih dengan cermat tempat Anda dapat melanjutkan studi, dipilih dengan perhatian khusus pada harga dan kualitas.",
+        "points": [
+          "5 institusi terpilih",
+          "Harga dan kualitas seimbang"
+        ]
+      },
+      {
+        "tag": "Lanjutkan",
+        "title": "Magister & lebih",
+        "body": "Lima universitas dipilih untuk studi pascasarjana, dengan persiapan residensi permanen yang berjalan paralel, sehingga Anda siap memasuki pasar kerja nyata.",
+        "points": [
+          "5 universitas terpilih",
+          "Persiapan PR paralel"
+        ]
+      },
+      {
+        "tag": "Menetap",
+        "title": "Kerja & migrasi",
+        "body": "Saran dan dukungan untuk jalur kerja serta konsultasi migrasi yang lebih luas, ditangani oleh konsultan migrasi terdaftar.",
+        "points": [
+          "Saran jalur kerja",
+          "Dukungan visa & migrasi"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Apa yang kami lakukan",
+    "title": "Dua layanan, satu tim *tepercaya*.",
+    "viewAll": "Lihat semua layanan",
+    "items": [
+      {
+        "title": "Agen pelajar",
+        "short": "Konsultan kami membantu Anda merencanakan studi, memilih perguruan tinggi, dan menangani semua hal yang terkait dengan menjadi pelajar.",
+        "long": "Konsultan Faith Education membantu Anda merencanakan studi, memilih perguruan tinggi, dan mengurus semua urusan terkait pelajar, dari percakapan pertama hingga wisuda dan seterusnya."
+      },
+      {
+        "title": "Agen migrasi",
+        "short": "Kami membantu siapa saja yang tertarik dengan visa Australia, dengan informasi terbaik dan terbaru untuk aplikasi Anda.",
+        "long": "Kami membantu siapa saja yang tertarik dengan visa Australia. Konsultan kami memberikan informasi terbaik untuk mengajukan visa di Australia, dan meninjau setiap dokumen dengan cermat."
+      }
+    ],
+    "pageCrumb": "Layanan",
+    "pageEyebrow": "Layanan kami",
+    "pageTitle": "Perawatan lengkap untuk *perjalanan Australia.* Anda",
+    "pageIntro": "Apakah Anda memilih kursus pertama atau merencanakan residensi permanen, konsultan kami membimbing Anda melalui setiap keputusan.",
+    "overviewAria": "Ikhtisar layanan"
+  },
+  "benefits": {
+    "eyebrow": "Mengapa kami yang terbaik",
+    "title": "Mengapa siswa memilih Faith",
+    "pageTitle": "Apa yang termasuk, setiap langkahnya",
+    "items": [
+      {
+        "title": "Dukungan 360 derajat",
+        "body": "Kami mengurus setiap kebutuhan dengan layanan langkah demi langkah yang membawa Anda ke hasil yang diinginkan."
+      },
+      {
+        "title": "Layanan transparan",
+        "body": "Umpan balik dan survei memberi Anda visibilitas serta akuntabilitas di setiap tingkat."
+      },
+      {
+        "title": "Penjemputan bandara & akomodasi",
+        "body": "Kami menjemput Anda saat tiba dan membantu mengatur akomodasi, bila diperlukan."
+      },
+      {
+        "title": "Tas hadiah selamat datang",
+        "body": "Tips praktis untuk kehidupan di Australia, pajak, superannuation, dan formulir asuransi kesehatan, serta tautan pekerjaan penting dan nomor telepon."
+      },
+      {
+        "title": "Keperluan minggu pertama",
+        "body": "Kartu telepon senilai $20 untuk minggu pertama Anda, serta makanan dan minuman pada hari pertama."
+      },
+      {
+        "title": "Dukungan berkelanjutan",
+        "body": "Kami berkoordinasi dengan institusi Anda untuk kebutuhan mendesak, menyarankan pekerjaan dan peran, serta memperbarui Anda tentang perubahan peraturan."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Tim kami",
+    "title": "Berpengalaman, berkualifikasi, *berinvestasi pada Anda.*",
+    "teaserEyebrow": "Temui tim",
+    "teaserTitle": "Orang yang dapat Anda *andalkan.*",
+    "meetEveryone": "Temui semua orang",
+    "pageCrumb": "Siapa kami",
+    "pageEyebrow": "Siapa kami",
+    "pageTitle": "Orang-orang di balik *kesuksesan Anda.*",
+    "pageIntro": "Akademisi, konselor, dan spesialis migrasi bersatu dalam satu keyakinan: bimbingan yang tepat mengubah hidup.",
+    "members": {
+      "donar-firman-rochmilijar": {
+        "role": "CEO & Founder",
+        "bio": "Donar adalah dosen universitas di Jakarta selama 10 tahun dan memperoleh pangkat akademik Lektor Madya dari Kementerian Pendidikan Indonesia. Setelah menyelesaikan Sarjana Ekonomi di Universitas Krisnadwipaya, ia melanjutkan studi di Australia: Graduate Diploma in Administration (University of Canberra), Master of Management Studies (UNSW) dan MBA (Charles Sturt University). Ia memulai Doctor of Business Administration di Newcastle University pada 2012, dan memiliki diploma lanjutan dalam kepemimpinan, manajemen, dan pemasaran, serta kualifikasi dalam pendidikan dan pelatihan serta manajemen proyek."
+      },
+      "liny-suryati": {
+        "role": "General Manager & Qualified Education Agent Counsellor",
+        "bio": "Liny adalah Konselor Agen Pendidikan Berkualifikasi (bersertifikat QEAC) dan dikenal baik oleh perguruan tinggi serta universitas Australia atas keahliannya dalam mengatur dan menyiapkan visa pelajar. Ia memahami kebutuhan mahasiswa serta kebijakan institusi, dan memiliki tingkat persetujuan visa yang sangat tinggi. Mahasiswa dan orang tua mereka menyukainya."
+      },
+      "ares-pasaribu": {
+        "role": "Marketing Manager",
+        "bio": "Ares memiliki Sarjana Ekonomi di bidang Keuangan dari STEKPI Jakarta dan Master of Finance dari Curtin University, Perth. Seorang bankir di Jakarta selama lebih dari lima tahun dan profesional asuransi selama lima tahun lagi, ia telah mengajar dan memberi konseling di Australia selama lebih dari sepuluh tahun, serta dikenal baik di komunitas Kristen Indonesia di Australia dan Indonesia."
+      },
+      "eddy-widjaja": {
+        "role": "Marketing Manager",
+        "bio": "Eddy telah menghabiskan sekitar dua puluh lima tahun pada level manajemen senior dengan pemimpin industri di seluruh Asia Pasifik, dan bergabung dengan Faith Education pada Oktober 2015. Sejak 2010 ia juga mengajar di Western Sydney University, Torrens University, dan TAFE. Ia bersemangat membangun orang melalui pendidikan dan pelatihan."
+      },
+      "ravi-s": {
+        "role": "Registered Migration Consultant",
+        "bio": "Ravi adalah konsultan migrasi terdaftar yang menangani semua dokumen aplikasi visa untuk Faith Education, meninjau setiap dokumen dengan cermat. Dengan pengalaman panjang dalam konsultasi migrasi dan peran direktur di OZSEA, ia telah menjadi bagian dari keluarga Faith sejak awal."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Siap kapan saja Anda siap",
+    "title": "Mari rencanakan masa depan *Australia* Anda bersama.",
+    "body": "Beritahu kami di mana Anda berada hari ini dan ke mana Anda ingin pergi. Kami akan memetakan jalannya.",
+    "button": "Buat pertanyaan"
+  },
+  "contact": {
+    "crumb": "Kontak",
+    "eyebrow": "Hubungi kami",
+    "title": "Mari mulai dengan *percakapan.*",
+    "intro": "Hubungi kantor kami di Sydney atau Jakarta, atau kirim pertanyaan dan kami akan menghubungi Anda kembali.",
+    "formEyebrow": "Buat pertanyaan",
+    "formTitle": "Beritahu kami tentang rencana Anda",
+    "offices": {
+      "Sydney": "Sydney",
+      "Jakarta": "Jakarta"
+    },
+    "mapTitle": "Lokasi kantor Faith Education, 264 George St, Sydney",
+    "mapAria": "Peta kantor Sydney kami"
+  },
+  "form": {
+    "name": "Nama lengkap",
+    "namePh": "Nama Anda",
+    "email": "Email",
+    "emailPh": "you@example.com",
+    "phone": "Telepon / WhatsApp (opsional)",
+    "interest": "Saya tertarik pada",
+    "interestPh": "Pilih topik",
+    "interests": {
+      "study": "Studi di Australia (agen pelajar)",
+      "migration": "Konsultasi visa & migrasi",
+      "pr": "Jalur kependudukan permanen",
+      "other": "Lainnya"
+    },
+    "message": "Pesan Anda",
+    "messagePh": "Ceritakan rencana studi, jadwal, dan pertanyaan Anda.",
+    "consentA": "Saya setuju Faith Education menghubungi saya tentang pertanyaan saya, sesuai dengan",
+    "consentLink": "kebijakan privasi",
+    "submit": "Kirim pertanyaan",
+    "sending": "Mengirim…",
+    "successTitle": "Terima kasih.",
+    "successBody": "Pertanyaan Anda telah kami terima. Anggota tim Faith Education akan segera menghubungi Anda.",
+    "checkFields": "Silakan periksa bidang yang disorot.",
+    "sendFailed": "Maaf, kami tidak dapat mengirim pertanyaan Anda. Silakan email atau hubungi kami langsung.",
+    "errors": {
+      "name": "Silakan masukkan nama lengkap Anda.",
+      "email": "Silakan masukkan alamat email yang valid.",
+      "phone": "Nomor telepon hanya boleh berisi angka, spasi, + ( ) dan - .",
+      "interest": "Silakan pilih topik.",
+      "message": "Silakan beri informasi lebih lanjut (minimal 10 karakter, maksimal 2000).",
+      "consent": "Silakan setujui agar kami dapat menghubungi Anda tentang pertanyaan Anda."
+    }
+  },
+  "privacy": {
+    "crumb": "Privasi",
+    "eyebrow": "Hukum",
+    "title": "Kebijakan Privasi & Cookie",
+    "notice": "Teks placeholder: harap ganti halaman ini dengan kebijakan yang digunakan situs web yang ada (atau yang ditinjau oleh penasihat hukum Anda) sebelum peluncuran.",
+    "sections": [
+      {
+        "title": "Informasi yang Kami Kumpulkan",
+        "body": "Saat Anda mengajukan pertanyaan, kami mengumpulkan detail yang Anda berikan (nama, email, telepon, dan pesan) sehingga kami dapat merespons dan menyediakan layanan siswa serta migrasi kami."
+      },
+      {
+        "title": "Bagaimana Kami Menggunakannya",
+        "body": "Kami menggunakan informasi Anda hanya untuk menanggapi pertanyaan Anda dan memberikan layanan yang Anda minta. Kami tidak menjual informasi pribadi Anda."
+      },
+      {
+        "title": "Cookie",
+        "body": "Situs web ini tidak menggunakan cookie iklan atau pelacakan. Cookie penting dapat digunakan agar situs berfungsi."
+      }
+    ],
+    "contactTitle": "Kontak",
+    "contactBody": "Pertanyaan tentang privasi? Email"
+  },
+  "notFound": {
+    "eyebrow": "Kesalahan 404",
+    "title": "Halaman *tidak ditemukan*",
+    "body": "Halaman yang Anda cari telah dipindahkan atau tidak ada.",
+    "back": "Kembali ke beranda"
+  },
+  "chat": {
+    "title": "Faith Concierge",
+    "status": "Biasanya membalas secara instan",
+    "open": "Obrolan dengan kami",
+    "close": "Tutup obrolan",
+    "welcome": "Halo, selamat datang di Faith Education. Bagaimana saya dapat membantu: belajar di Australia, visa, layanan kami, atau menjadwalkan konsultasi?",
+    "placeholder": "Tanyakan tentang kursus, visa, layanan…",
+    "send": "Kirim",
+    "suggestions": [
+      "Bagaimana cara kerja dukungan 360 derajat Anda?",
+      "Apa persyaratan masuk?",
+      "Apakah Anda membantu dengan visa pelajar?",
+      "Bagaimana cara memesan konsultasi?"
+    ],
+    "error": "Maaf, terjadi kesalahan. Silakan coba lagi, atau hubungi kami di findoeducation@gmail.com.",
+    "disclaimer": "Asisten AI. Untuk saran visa atau hukum, silakan berbicara dengan konsultan kami.",
+    "typing": "Mengetik",
+    "whatsapp": "Chat via WhatsApp",
+    "whatsappMessage": "Halo Faith Education, saya ingin tahu lebih lanjut tentang kuliah di Australia."
+  },
+  "language": {
+    "label": "Bahasa",
+    "choose": "Pilih bahasa"
+  }
+}

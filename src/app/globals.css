@@ -1,26 +1,119 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand: the original Faith Education rust-brown */
+  --color-brand-950: #3a120b;
+  --color-brand-900: #5a1c11;
+  --color-brand-800: #7a2818;
+  --color-brand-700: #8b3822;
+  --color-brand-600: #a64a33;
+  /* Accent: champagne, for highlights on dark brand surfaces (600/700 = brand rust for text on light) */
+  --color-accent-300: #f0dcb8;
+  --color-accent-400: #e4c796;
+  --color-accent-500: #d3ab6d;
+  --color-accent-600: #8b3822;
+  --color-accent-700: #6e2a19;
+  /* Neutrals (warm) */
+  --color-ivory: #faf6ef;
+  --color-sand: #f1e8d9;
+  --color-ink: #2a1814;
+  --color-mist: #6b5b55;
+
+  --font-sans: var(--font-body-latin), ui-sans-serif, system-ui, "PingFang SC", "Hiragino Sans", "Microsoft YaHei",
+    "Malgun Gothic", sans-serif;
+  --font-display: var(--font-display-latin), ui-serif, Georgia, serif;
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* CJK headings use a matching Noto Serif; Latin glyphs still come from Lora. */
+:lang(zh-Hans) {
+  --font-display: var(--font-display-latin), var(--font-serif-sc), "Songti SC", serif;
+}
+:lang(ja) {
+  --font-display: var(--font-display-latin), var(--font-serif-jp), "Hiragino Mincho ProN", serif;
+}
+:lang(ko) {
+  --font-display: var(--font-display-latin), var(--font-serif-kr), "Batang", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    @apply bg-ivory font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-accent-400);
+    color: var(--color-brand-900);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent-500);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-accent-600;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-current;
+  }
+  .display {
+    font-variant-numeric: lining-nums;
+    @apply font-display font-medium leading-[1.12] tracking-[-0.01em];
+  }
+  .gold-text {
+    background: linear-gradient(100deg, #f0dcb8 0%, #d3ab6d 50%, #f6e7c8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition duration-300;
+  }
+  .btn-accent {
+    @apply bg-accent-500 text-brand-900 shadow-[0_10px_30px_-10px_rgba(211,171,109,0.7)] hover:-translate-y-0.5 hover:bg-accent-400;
+  }
+  .btn-ghost {
+    @apply border border-white/25 text-white hover:border-accent-400 hover:text-accent-300;
+  }
+  .btn-brand {
+    @apply bg-brand-900 text-white hover:-translate-y-0.5 hover:bg-brand-700;
+  }
+}
+
+/* Scroll reveal (progressive enhancement: content is visible without JS) */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.9s var(--ease-luxe),
+    transform 0.9s var(--ease-luxe);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

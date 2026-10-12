@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "siteTitle": "Faith Education | Agencia de Estudiantes y Migración en Sydney",
+    "siteDescription": "Faith Education es una agencia de estudiantes y migración de confianza con sede en Sydney. Desde colegios vocacionales hasta licenciaturas, maestrías y residencia permanente, planificamos y apoyamos tu educación australiana de principio a fin.",
+    "homeTitle": "Faith Education | Estudia en Australia, Agencia de Estudiantes y Migración Sydney",
+    "homeDescription": "Agencia de educación y migración de confianza en Sydney. Planifica tus estudios en Australia, desde colegios vocacionales hasta maestrías y residencia permanente con el apoyo integral de Faith Education.",
+    "servicesTitle": "Nuestros Servicios",
+    "servicesDescription": "Servicios de agente estudiantil y de migración en Sydney: planificación de estudios, selección de colegios y universidades, apoyo de visas, recogida en el aeropuerto, ayuda con alojamiento y atención continua.",
+    "aboutTitle": "Quiénes Somos",
+    "aboutDescription": "Conoce al equipo de Faith Education: un ex‑profesor universitario, un Asesor Calificado de Agente Educativo, gerentes de marketing experimentados y un consultor de migración registrado.",
+    "contactTitle": "Contáctanos",
+    "contactDescription": "Contacta a Faith Education en Sydney o Yakarta. Haz una consulta sobre estudiar en Australia, visas de estudiante o migración y te responderemos.",
+    "privacyTitle": "Política de Privacidad y Cookies",
+    "privacyDescription": "Cómo Faith Education recopila, usa y protege tu información personal, y cómo este sitio web utiliza cookies."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Quiénes somos",
+    "contact": "Contacto",
+    "cta": "Consulta gratuita",
+    "skip": "Saltar al contenido",
+    "homeAria": "Faith Education, inicio",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "primary": "Principal",
+    "mobile": "Móvil",
+    "breadcrumb": "Miga de pan"
+  },
+  "footer": {
+    "tagline": "Agente de Educación y Migración de confianza. Planificamos y apoyamos tu educación australiana desde el primer paso hasta la residencia permanente.",
+    "explore": "Explorar",
+    "privacy": "Privacidad y Cookies",
+    "getInTouch": "Contactar",
+    "country": "Australia",
+    "rights": "Todos los derechos reservados."
+  },
+  "hero": {
+    "eyebrow": "Agente de Estudiantes y Migración · Sydney",
+    "title": "Tu camino a una educación *australiana*, planificado de principio a fin.",
+    "body": "Faith Education es un agente de educación y migración de confianza. Le ofrecemos la mejor solución para sus necesidades, desde elegir la universidad adecuada hasta establecerse en la vida y el trabajo en Australia.",
+    "ctaPrimary": "Reserve una consulta gratuita",
+    "ctaSecondary": "Explore nuestros servicios",
+    "stats": [
+      {
+        "value": "10",
+        "label": "Colegios vocacionales recomendados"
+      },
+      {
+        "value": "5+5",
+        "label": "Instituciones de licenciatura y maestría seleccionadas"
+      },
+      {
+        "value": "25+",
+        "label": "Años de experiencia en liderazgo senior en nuestro equipo"
+      },
+      {
+        "value": "2",
+        "label": "Oficinas: Sydney y Jakarta"
+      }
+    ]
+  },
+  "pathways": {
+    "eyebrow": "La vía Faith",
+    "title": "Cuatro etapas. *Un socio* a tu lado.",
+    "intro": "La educación es la base de una sociedad basada en el conocimiento, y confiamos profundamente en el bien estructurado sistema educativo de Australia. Por eso te acompañamos desde el principio hasta el final, y lo llamamos apoyo 360 grados.",
+    "items": [
+      {
+        "tag": "Empieza aquí",
+        "title": "Vocacional",
+        "body": "Seleccionamos diez de los mejores colegios de negocios de Australia y recomendamos el ajuste adecuado. La entrada solo requiere haber completado el Año 12 y una puntuación IELTS de 5.5.",
+        "points": [
+          "10 colegios recomendados",
+          "Año 12 + IELTS 5.5"
+        ]
+      },
+      {
+        "tag": "Desarrolla",
+        "title": "Licenciatura",
+        "body": "Cinco colegios y universidades cuidadosamente elegidos donde puedes continuar tus estudios, seleccionados con atención tanto al precio como a la calidad.",
+        "points": [
+          "5 instituciones seleccionadas",
+          "Equilibrio entre precio y calidad"
+        ]
+      },
+      {
+        "tag": "Avanza más",
+        "title": "Maestrías y superiores",
+        "body": "Cinco universidades elegidas para estudios de posgrado, con preparación para la residencia permanente en paralelo, para que ingreses al mercado laboral listo.",
+        "points": [
+          "5 universidades seleccionadas",
+          "Preparación paralela de PR"
+        ]
+      },
+      {
+        "tag": "Establecerte",
+        "title": "Trabajo y migración",
+        "body": "Sugerencias y apoyo para rutas laborales y consultoría migratoria integral, gestionado por un consultor de migración registrado.",
+        "points": [
+          "Asesoramiento de ruta laboral",
+          "Apoyo de visa y migración"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Dos servicios, un equipo *de confianza*.",
+    "viewAll": "Ver todos los servicios",
+    "items": [
+      {
+        "title": "Agente estudiantil",
+        "short": "Nuestros consultores le ayudan a planificar sus estudios, elegir su colegio y gestionar todo lo que implica ser estudiante.",
+        "long": "Los consultores de Faith Education le ayudan a planificar sus estudios, elegir su colegio y atender todos los asuntos relacionados con el estudiante, desde la primera conversación hasta la graduación y más allá."
+      },
+      {
+        "title": "Agente de migración",
+        "short": "Ayudamos a quien esté interesado en visas australianas, con la información más actualizada para su solicitud.",
+        "long": "Ayudamos a quien esté interesado en visas australianas. Nuestros consultores le brindan la mejor información para solicitar una visa en Australia y revisan cada documento con cuidado."
+      }
+    ],
+    "pageCrumb": "Servicios",
+    "pageEyebrow": "Nuestros servicios",
+    "pageTitle": "Cuidado integral para su *viaje australiano.*",
+    "pageIntro": "Ya sea que elija un primer curso o planifique la residencia permanente, nuestros consultores le guían en cada decisión.",
+    "overviewAria": "Resumen de servicios"
+  },
+  "benefits": {
+    "eyebrow": "Por qué somos los mejores",
+    "title": "Por qué los estudiantes eligen Faith",
+    "pageTitle": "Qué incluye, en cada paso del camino",
+    "items": [
+      {
+        "title": "Apoyo integral 360°",
+        "body": "Nos ocupamos de cada necesidad con un servicio paso a paso que le lleva al resultado que desea."
+      },
+      {
+        "title": "Servicio transparente",
+        "body": "Los comentarios y encuestas le brindan visibilidad y responsabilidad en cada nivel."
+      },
+      {
+        "title": "Recogida en el aeropuerto y alojamiento",
+        "body": "Le recibimos a su llegada y le ayudamos a organizar el alojamiento, si lo necesita."
+      },
+      {
+        "title": "Bolsa de regalo de bienvenida",
+        "body": "Consejos prácticos para la vida en Australia, impuestos, superannuation y formularios de seguro de salud, además de enlaces clave de empleo y números de teléfono."
+      },
+      {
+        "title": "Esenciales de la primera semana",
+        "body": "Una tarjeta telefónica de $20 para su primera semana, y comida y refrescos en su primer día."
+      },
+      {
+        "title": "Apoyo continuo",
+        "body": "Nos comunicamos con su institución sobre necesidades urgentes, sugerimos empleos y roles, y le mantenemos actualizado sobre cambios legislativos."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Experimentado, calificado, *invertido en ti.*",
+    "teaserEyebrow": "Conoce al equipo",
+    "teaserTitle": "Personas en las que puedes *confiar.*",
+    "meetEveryone": "Conoce a todos",
+    "pageCrumb": "Quiénes somos",
+    "pageEyebrow": "Quiénes somos",
+    "pageTitle": "Las personas detrás de *tu éxito.*",
+    "pageIntro": "Académicos, asesores y especialistas en migración unidos por una creencia: la guía adecuada cambia una vida.",
+    "members": {
+      "donar-firman-rochmilijar": {
+        "role": "CEO y Fundador",
+        "bio": "Donar fue profesor universitario en Yakarta durante 10 años y obtuvo el rango académico de Lektor Madya (Profesor Senior) del Departamento de Educación de Indonesia. Tras su Sarjana Ekonomi en Universitas Krisnadwipaya, estudió en Australia: Diploma de Posgrado en Administración (University of Canberra), Maestría en Estudios de Gestión (UNSW) y MBA (Charles Sturt University). Comenzó su Doctorado en Administración de Empresas en Newcastle University en 2012, y posee diplomas avanzados en liderazgo, gestión y marketing, además de cualificaciones en educación, formación y gestión de proyectos."
+      },
+      "liny-suryati": {
+        "role": "Gerente General y Asesora Educativa Certificada",
+        "bio": "Liny es una Asesora Educativa Certificada (certificada QEAC) y es muy conocida por colegios y universidades australianas por su habilidad para organizar y preparar visas de estudiante. Entiende tanto las necesidades de los estudiantes como las políticas institucionales, y tiene una tasa de aprobación de visas muy alta. Los estudiantes y sus padres la adoran."
+      },
+      "ares-pasaribu": {
+        "role": "Gerente de Marketing",
+        "bio": "Ares posee un Sarjana Ekonomi en Finanzas de STEKPI Yakarta y una Maestría en Finanzas de Curtin University, Perth. Fue banquero en Yakarta durante más de cinco años y profesional de seguros durante cinco años más; ha enseñado y asesorado en Australia por más de diez años, y es bien conocido en las comunidades cristianas indonesias de Australia e Indonesia."
+      },
+      "eddy-widjaja": {
+        "role": "Gerente de Marketing",
+        "bio": "Eddy ha pasado alrededor de veinticinco años en puestos de alta dirección con líderes de la industria en Asia Pacífico, y se unió a Faith Education en octubre de 2015. Desde 2010 también ha enseñado en Western Sydney University, Torrens University y TAFE. Le apasiona desarrollar a las personas mediante la educación y la formación."
+      },
+      "ravi-s": {
+        "role": "Consultor de Migración Registrado",
+        "bio": "Ravi es un consultor de migración registrado que se encarga de toda la documentación de solicitudes de visa para Faith Education, revisando cada documento con cuidado. Con amplia experiencia en consultoría migratoria y un cargo directivo en OZSEA, ha formado parte de la familia Faith desde el principio."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Listo cuando tú lo estés",
+    "title": "Planifiquemos juntos tu futuro *Australiano*",
+    "body": "Cuéntanos dónde estás hoy y dónde quieres estar. Trazaremos el camino.",
+    "button": "Hacer una consulta"
+  },
+  "contact": {
+    "crumb": "Contacto",
+    "eyebrow": "Contáctanos",
+    "title": "Comencemos con una *conversación.*",
+    "intro": "Visita nuestra oficina de Sydney o Jakarta, o envía una consulta y te responderemos.",
+    "formEyebrow": "Haz una consulta",
+    "formTitle": "Cuéntanos tus planes",
+    "offices": {
+      "Sydney": "Sydney",
+      "Jakarta": "Jakarta"
+    },
+    "mapTitle": "Ubicación de la oficina de Faith Education, 264 George St, Sydney",
+    "mapAria": "Mapa de nuestra oficina de Sydney"
+  },
+  "form": {
+    "name": "Nombre completo",
+    "namePh": "Tu nombre",
+    "email": "Correo electrónico",
+    "emailPh": "you@example.com",
+    "phone": "Teléfono / WhatsApp (opcional)",
+    "interest": "Estoy interesado en",
+    "interestPh": "Selecciona un tema",
+    "interests": {
+      "study": "Estudiar en Australia (agente estudiantil)",
+      "migration": "Consultoría de visas y migración",
+      "pr": "Ruta de residencia permanente",
+      "other": "Otra cosa"
+    },
+    "message": "Tu mensaje",
+    "messagePh": "Cuéntanos tus planes de estudio, plazos y cualquier pregunta.",
+    "consentA": "Acepto que Faith Education me contacte sobre mi consulta, de acuerdo con la",
+    "consentLink": "política de privacidad",
+    "submit": "Enviar consulta",
+    "sending": "Enviando…",
+    "successTitle": "Gracias.",
+    "successBody": "Tu consulta ha llegado a nosotros. Un miembro del equipo de Faith Education se pondrá en contacto pronto.",
+    "checkFields": "Por favor revisa los campos resaltados.",
+    "sendFailed": "Lo sentimos, no pudimos enviar tu consulta. Por favor envíanos un correo o llámanos directamente.",
+    "errors": {
+      "name": "Por favor ingresa tu nombre completo.",
+      "email": "Por favor ingresa una dirección de correo válida.",
+      "phone": "Los números de teléfono solo pueden contener dígitos, espacios, + ( ) y -.",
+      "interest": "Por favor elige un tema.",
+      "message": "Por favor cuéntanos más (al menos 10 caracteres, como máximo 2000).",
+      "consent": "Por favor acepta para que podamos contactarte sobre tu consulta."
+    }
+  },
+  "privacy": {
+    "crumb": "Privacidad",
+    "eyebrow": "Legal",
+    "title": "Política de Privacidad y Cookies",
+    "notice": "Texto de marcador de posición: reemplace esta página con la política que utiliza el sitio web existente (o una revisada por su asesor legal) antes del lanzamiento.",
+    "sections": [
+      {
+        "title": "Información que recopilamos",
+        "body": "Cuando realiza una consulta, recopilamos los datos que nos proporciona (nombre, correo electrónico, teléfono y mensaje) para poder responder y ofrecer nuestros servicios estudiantiles y de migración."
+      },
+      {
+        "title": "Cómo la utilizamos",
+        "body": "Utilizamos su información solo para responder a su consulta y proporcionar los servicios que solicita. No vendemos su información personal."
+      },
+      {
+        "title": "Cookies",
+        "body": "Este sitio web no utiliza cookies publicitarias ni de seguimiento. Se pueden usar cookies esenciales para que el sitio funcione."
+      }
+    ],
+    "contactTitle": "Contacto",
+    "contactBody": "¿Preguntas sobre la privacidad? Correo electrónico"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Página *no encontrada*",
+    "body": "La página que buscas se ha movido o no existe.",
+    "back": "Volver al inicio"
+  },
+  "chat": {
+    "title": "Faith Concierge",
+    "status": "Generalmente responde al instante",
+    "open": "Chatea con nosotros",
+    "close": "Cerrar chat",
+    "welcome": "Hola, bienvenido a Faith Education. ¿Cómo puedo ayudarle: estudiar en Australia, visas, nuestros servicios o reservar una consulta?",
+    "placeholder": "Pregunte sobre cursos, visas, servicios…",
+    "send": "Enviar",
+    "suggestions": [
+      "¿Cómo funciona su apoyo 360 grados?",
+      "¿Cuáles son los requisitos de ingreso?",
+      "¿Ayudan con visas de estudiante?",
+      "¿Cómo puedo reservar una consulta?"
+    ],
+    "error": "Lo sentimos, algo salió mal. Por favor intente de nuevo, o contáctenos en findoeducation@gmail.com.",
+    "disclaimer": "Asistente IA. Para asesoría de visas o legal, por favor hable con nuestros consultores.",
+    "typing": "Escribiendo",
+    "whatsapp": "Chatear por WhatsApp",
+    "whatsappMessage": "Hola Faith Education, me gustaría saber más sobre estudiar en Australia."
+  },
+  "language": {
+    "label": "Idioma",
+    "choose": "Seleccione idioma"
+  }
+}

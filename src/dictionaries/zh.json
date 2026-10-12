@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "siteTitle": "Faith Education | 悉尼学生与移民代理",
+    "siteDescription": "Faith Education是一家值得信赖的悉尼本地学生和移民代理。从职业学院到学士、硕士以及永久居留，我们提供全程规划与支持您的澳洲教育。",
+    "homeTitle": "Faith Education | 在澳大利亚学习，悉尼学生与移民代理",
+    "homeDescription": "值得信赖的悉尼教育与移民代理。通过Faith Education的360度支持，从职业学院到硕士以及永久居留，规划您的澳洲学习。",
+    "servicesTitle": "我们的服务",
+    "servicesDescription": "悉尼的学生代理和移民代理服务：学习规划、学院与大学选择、签证支持、机场接机、住宿帮助以及持续关怀。",
+    "aboutTitle": "关于我们",
+    "aboutDescription": "认识Faith Education团队：前大学讲师、合格教育代理顾问、经验丰富的营销经理以及注册移民顾问。",
+    "contactTitle": "联系我们",
+    "contactDescription": "联系悉尼或雅加达的Faith Education。咨询澳洲留学、学生签证或移民事宜，我们将尽快回复。",
+    "privacyTitle": "隐私与Cookie政策",
+    "privacyDescription": "Faith Education如何收集、使用并保护您的个人信息，以及本网站如何使用Cookie。"
+  },
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于我们",
+    "contact": "联系",
+    "cta": "免费咨询",
+    "skip": "跳转到内容",
+    "homeAria": "Faith Education，主页",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "primary": "主要",
+    "mobile": "移动端",
+    "breadcrumb": "面包屑"
+  },
+  "footer": {
+    "tagline": "值得信赖的教育与移民代理。我们从第一步到永久居留全程规划并支持您的澳大利亚教育。",
+    "explore": "探索",
+    "privacy": "隐私与Cookie",
+    "getInTouch": "联系我们",
+    "country": "澳大利亚",
+    "rights": "版权所有"
+  },
+  "hero": {
+    "eyebrow": "学生与移民顾问 · 悉尼",
+    "title": "通往*澳大利亚*教育的道路，端到端规划。",
+    "body": "Faith Education 是值得信赖的教育与移民顾问。我们为您提供最佳方案，从选择合适的学院到在澳大利亚安顿生活和工作。",
+    "ctaPrimary": "预约免费咨询",
+    "ctaSecondary": "了解我们的服务",
+    "stats": [
+      {
+        "value": "10",
+        "label": "推荐的职业学院"
+      },
+      {
+        "value": "5+5",
+        "label": "精选的本科与硕士院校"
+      },
+      {
+        "value": "25+",
+        "label": "团队拥有的高级领导经验年限"
+      },
+      {
+        "value": "2",
+        "label": "办公室：悉尼与雅加达"
+      }
+    ]
+  },
+  "pathways": {
+    "eyebrow": "Faith 路径",
+    "title": "四个阶段。*一位合作伙伴* 在您身旁。",
+    "intro": "教育是知识型社会的基石，我们对澳大利亚完善的教育体系抱有坚定信念。因此，我们从始至终为您提供全方位支持，称之为 360 度支持。",
+    "items": [
+      {
+        "tag": "从这里开始",
+        "title": "职业教育",
+        "body": "我们筛选出澳大利亚十所顶尖商科院校，并推荐最适合您的选择。入学仅需完成高中十二年级并取得 IELTS 5.5 分。",
+        "points": [
+          "推荐 10 所院校",
+          "高中十二年级 + IELTS 5.5"
+        ]
+      },
+      {
+        "tag": "继续深造",
+        "title": "学士",
+        "body": "精心挑选的五所高校与大学，让您继续学习，兼顾费用与教学质量。",
+        "points": [
+          "精选 5 所院校",
+          "费用与质量平衡"
+        ]
+      },
+      {
+        "tag": "更进一步",
+        "title": "硕士及以上",
+        "body": "为研究生学习挑选的五所大学，同时同步准备永久居留，让您踏入职场时已做好准备。",
+        "points": [
+          "精选 5 所大学",
+          "同步 PR 准备"
+        ]
+      },
+      {
+        "tag": "安居澳洲",
+        "title": "工作与移民",
+        "body": "提供工作路径建议及更广泛的移民咨询，由注册移民顾问全程协助。",
+        "points": [
+          "工作路径建议",
+          "签证与移民支持"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "我们做什么",
+    "title": "两项服务，一个*值得信赖*的团队。",
+    "viewAll": "查看所有服务",
+    "items": [
+      {
+        "title": "学生代理",
+        "short": "我们的顾问帮助您规划学习，选择学院并处理学生身份的所有事务。",
+        "long": "Faith Education 顾问帮助您规划学习，选择学院并处理所有与学生相关的事务，从首次沟通到毕业及以后。"
+      },
+      {
+        "title": "移民代理",
+        "short": "我们为所有对澳大利亚签证感兴趣的人提供最新、最佳的信息，帮助您申请。",
+        "long": "我们帮助所有对澳大利亚签证感兴趣的人。我们的顾问为您提供申请澳大利亚签证的最佳信息，并仔细审查每份文件。"
+      }
+    ],
+    "pageCrumb": "服务",
+    "pageEyebrow": "我们的服务",
+    "pageTitle": "为您的*澳大利亚之旅*提供全方位关怀。",
+    "pageIntro": "无论是选择第一门课程还是规划永久居留，我们的顾问都会在每个决定上为您提供指导。",
+    "overviewAria": "服务概览"
+  },
+  "benefits": {
+    "eyebrow": "为什么我们是最佳选择",
+    "title": "学生为何选择Faith",
+    "pageTitle": "全程包含的服务",
+    "items": [
+      {
+        "title": "360度支持",
+        "body": "我们提供一步步的服务，满足您所有需求，帮助您实现想要的结果。"
+      },
+      {
+        "title": "透明服务",
+        "body": "反馈和调查让您在每个层面都能看到并追踪进度。"
+      },
+      {
+        "title": "机场接机与住宿安排",
+        "body": "我们在您抵达时迎接，并在需要时帮助安排住宿。"
+      },
+      {
+        "title": "欢迎礼品袋",
+        "body": "提供澳大利亚生活实用技巧、税务、养老金和健康保险表格，以及关键工作链接和电话号码。"
+      },
+      {
+        "title": "第一周必备",
+        "body": "为您第一周提供$20电话卡，以及第一天的餐饮。"
+      },
+      {
+        "title": "持续支持",
+        "body": "我们与您的机构沟通紧急需求，推荐工作岗位，并随时更新立法变化信息。"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "我们的团队",
+    "title": "经验丰富，资质卓越，*致力于您*。",
+    "teaserEyebrow": "认识团队",
+    "teaserTitle": "您可以*信赖的*人。",
+    "meetEveryone": "认识所有人",
+    "pageCrumb": "关于我们",
+    "pageEyebrow": "关于我们",
+    "pageTitle": "成就*您成功*背后的人。",
+    "pageIntro": "学者、顾问和移民专家因一个信念而团结：正确的指导能改变人生。",
+    "members": {
+      "donar-firman-rochmilijar": {
+        "role": "CEO & Founder",
+        "bio": "Donar 在雅加达担任大学讲师10年，并获得印尼教育部授予的 Lektor Madya（高级讲师）职称。毕业于 Universitas Krisnadwipaya 的 Sarjana Ekonomi 后，他赴澳洲深造：堪培拉大学行政研究生文凭、UNSW 管理学硕士以及查尔斯·斯特大学 MBA。2012 年在纽卡斯尔大学开始攻读工商管理博士，并持有领导力、管理和营销高级文凭，以及教育培训和项目管理资格。"
+      },
+      "liny-suryati": {
+        "role": "General Manager & Qualified Education Agent Counsellor",
+        "bio": "Liny 是一名合格教育代理顾问（QEAC 认证），因在组织和准备学生签证方面的专业能力而受到澳洲高校的广泛认可。她既了解学生需求，又熟悉院校政策，签证批准率极高，深受学生及其家长喜爱。"
+      },
+      "ares-pasaribu": {
+        "role": "Marketing Manager",
+        "bio": "Ares 拥有 STEKPI 雅加达金融专业 Sarjana Ekonomi 学位和 Curtin 大学金融硕士学位。曾在雅加达银行业工作五年，随后从事保险业五年；在澳洲教学与辅导十余年，深受印尼基督教社区的信任。"
+      },
+      "eddy-widjaja": {
+        "role": "Marketing Manager",
+        "bio": "Eddy 在亚太地区的行业领袖企业担任高级管理职务约二十五年，于 2015 年10月加入 Faith Education。自 2010 年起，他亦在西悉尼大学、托伦斯大学和 TAFE 任教，热衷于通过教育培训提升人才。"
+      },
+      "ravi-s": {
+        "role": "Registered Migration Consultant",
+        "bio": "Ravi 是 Faith Education 的注册移民顾问，负责所有签证申请文件的细致审查。凭借丰富的移民咨询经验和 OZSEA 的董事职务，他自创立伊始便是 Faith 家庭的重要成员。"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "准备好随时为您服务",
+    "title": "让我们一起规划您的*澳大利亚*未来。",
+    "body": "告诉我们您现在的位置以及想要达到的目标。我们将为您绘制路线。",
+    "button": "提交咨询"
+  },
+  "contact": {
+    "crumb": "联系",
+    "eyebrow": "联系我们",
+    "title": "让我们从一次*对话*开始。",
+    "intro": "联系悉尼或雅加达办公室，或发送咨询，我们会回复您。",
+    "formEyebrow": "提出咨询",
+    "formTitle": "告诉我们您的计划",
+    "offices": {
+      "Sydney": "悉尼",
+      "Jakarta": "雅加达"
+    },
+    "mapTitle": "Faith Education 办公地点，264 George St，悉尼",
+    "mapAria": "悉尼办公室地图"
+  },
+  "form": {
+    "name": "全名",
+    "namePh": "您的姓名",
+    "email": "电子邮件",
+    "emailPh": "you@example.com",
+    "phone": "电话 / WhatsApp（可选）",
+    "interest": "我感兴趣的",
+    "interestPh": "选择一个主题",
+    "interests": {
+      "study": "在澳大利亚学习（学生代理）",
+      "migration": "签证与移民咨询",
+      "pr": "永久居留路径",
+      "other": "其他"
+    },
+    "message": "您的信息",
+    "messagePh": "告诉我们您的学习计划、时间安排以及任何问题。",
+    "consentA": "我同意 Faith Education 根据",
+    "consentLink": "隐私政策",
+    "submit": "提交咨询",
+    "sending": "发送中…",
+    "successTitle": "谢谢。",
+    "successBody": "您的咨询已收到。Faith Education 团队成员将很快与您联系。",
+    "checkFields": "请检查标记的字段。",
+    "sendFailed": "抱歉，无法发送您的咨询。请直接发送电子邮件或致电我们。",
+    "errors": {
+      "name": "请输入您的全名。",
+      "email": "请输入有效的电子邮件地址。",
+      "phone": "电话号码只能包含数字、空格、+ ( ) 和 -。",
+      "interest": "请选择一个主题。",
+      "message": "请提供更多信息（至少10个字符，最多2000个字符）。",
+      "consent": "请同意，以便我们就您的咨询与您联系。"
+    }
+  },
+  "privacy": {
+    "crumb": "隐私",
+    "eyebrow": "法律",
+    "title": "隐私与Cookie政策",
+    "notice": "占位符文本：请在上线前用现有网站使用的政策（或经您法律顾问审阅的政策）替换此页面。",
+    "sections": [
+      {
+        "title": "我们收集的信息",
+        "body": "当您提交咨询时，我们会收集您提供的详细信息（姓名、电子邮件、电话和留言），以便我们回复并提供学生和移民服务。"
+      },
+      {
+        "title": "我们如何使用这些信息",
+        "body": "我们仅使用您的信息来回复您的咨询并提供您所要求的服务。我们不会出售您的个人信息。"
+      },
+      {
+        "title": "Cookie",
+        "body": "本网站不使用广告或跟踪Cookie。可能会使用必要的Cookie以确保网站正常运行。"
+      }
+    ],
+    "contactTitle": "联系",
+    "contactBody": "关于隐私的疑问？请发送电子邮件"
+  },
+  "notFound": {
+    "eyebrow": "错误 404",
+    "title": "页面 *未找到*",
+    "body": "您查找的页面已移动或不存在。",
+    "back": "返回首页"
+  },
+  "chat": {
+    "title": "Faith Concierge",
+    "status": "通常会即时回复",
+    "open": "与我们聊天",
+    "close": "关闭聊天",
+    "welcome": "您好，欢迎来到Faith Education。我能帮助您：在澳洲留学、签证、我们的服务或预约咨询？",
+    "placeholder": "询问课程、签证、服务…",
+    "send": "发送",
+    "suggestions": [
+      "您的360度支持是如何运作的？",
+      "入学要求是什么？",
+      "您是否帮助办理学生签证？",
+      "我该如何预约咨询？"
+    ],
+    "error": "抱歉，出现错误。请重试，或通过 findoeducation@gmail.com 与我们联系。",
+    "disclaimer": "AI助手。若需签证或法律建议，请咨询我们的顾问。",
+    "typing": "正在输入",
+    "whatsapp": "通过 WhatsApp 联系我们",
+    "whatsappMessage": "您好 Faith Education，我想了解更多关于在澳大利亚留学的信息。"
+  },
+  "language": {
+    "label": "语言",
+    "choose": "选择语言"
+  }
+}

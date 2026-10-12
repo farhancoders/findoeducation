@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "siteTitle": "Faith Education | 학생 및 이민 에이전트 시드니",
+    "siteDescription": "Faith Education은 신뢰받는 시드니 기반 학생 및 이민 에이전트입니다. 직업 대학부터 학사, 석사 및 영주권까지, 호주 교육을 처음부터 끝까지 계획하고 지원합니다.",
+    "homeTitle": "Faith Education | 호주 유학, 학생 및 이민 에이전트 시드니",
+    "homeDescription": "신뢰받는 시드니 교육 및 이민 에이전트. 직업 대학부터 석사 및 영주권까지 호주 유학을 Faith Education의 360도 지원으로 계획하세요.",
+    "servicesTitle": "우리 서비스",
+    "servicesDescription": "시드니의 학생 및 이민 에이전트 서비스: 학업 계획, 대학 및 대학교 선택, 비자 지원, 공항 픽업, 숙소 도움 및 지속적인 관리.",
+    "aboutTitle": "우리는 누구인가",
+    "aboutDescription": "Faith Education 팀을 만나보세요: 전직 대학 강사, 공인 교육 에이전트 상담가, 경험 풍부한 마케팅 매니저 및 등록 이민 컨설턴트로 구성되어 있습니다.",
+    "contactTitle": "문의하기",
+    "contactDescription": "시드니 또는 자카르타에 있는 Faith Education에 연락하세요. 호주 유학, 학생 비자 또는 이민에 대해 문의하시면 신속히 답변드리겠습니다.",
+    "privacyTitle": "개인정보 및 쿠키 정책",
+    "privacyDescription": "Faith Education이 귀하의 개인 정보를 수집, 사용 및 보호하는 방법과 이 웹사이트가 쿠키를 사용하는 방식을 안내합니다."
+  },
+  "nav": {
+    "home": "홈",
+    "services": "서비스",
+    "about": "우리에 대해",
+    "contact": "연락처",
+    "cta": "무료 상담",
+    "skip": "콘텐츠 건너뛰기",
+    "homeAria": "Faith Education, 홈",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "primary": "기본",
+    "mobile": "모바일",
+    "breadcrumb": "탐색 경로"
+  },
+  "footer": {
+    "tagline": "신뢰받는 교육 및 이민 에이전트. 첫 단계부터 영주권까지 호주 교육을 계획하고 지원합니다.",
+    "explore": "탐색하기",
+    "privacy": "개인정보 보호 및 쿠키",
+    "getInTouch": "문의하기",
+    "country": "호주",
+    "rights": "모든 권리 보유"
+  },
+  "hero": {
+    "eyebrow": "학생 및 이민 에이전트 · 시드니",
+    "title": "끝까지 계획된 *호주* 교육으로 가는 길",
+    "body": "Faith Education은 신뢰받는 교육 및 이민 에이전트입니다. 올바른 대학 선택부터 호주에서의 생활 및 업무 정착까지 귀하의 필요에 맞는 최상의 솔루션을 제공합니다.",
+    "ctaPrimary": "무료 상담 예약",
+    "ctaSecondary": "서비스 살펴보기",
+    "stats": [
+      {
+        "value": "10",
+        "label": "추천 직업 대학"
+      },
+      {
+        "value": "5+5",
+        "label": "선택된 학사 및 석사 기관"
+      },
+      {
+        "value": "25+",
+        "label": "우리 팀의 고위 리더십 경험 연수"
+      },
+      {
+        "value": "2",
+        "label": "사무소: 시드니 & 자카르타"
+      }
+    ]
+  },
+  "pathways": {
+    "eyebrow": "Faith 경로",
+    "title": "Four stages. *One partner* beside you.",
+    "intro": "교육은 지식 기반 사회의 토대이며, 우리는 호주의 체계적인 교육 시스템을 깊이 신뢰합니다. 그래서 처음부터 끝까지 360도 지원을 제공합니다.",
+    "items": [
+      {
+        "tag": "Start here",
+        "title": "Vocational",
+        "body": "호주의 최고 비즈니스 대학 10곳을 선별하여 적합한 학교를 추천합니다. 입학은 Year 12 완료와 IELTS 5.5 점수만 필요합니다.",
+        "points": [
+          "추천 대학 10곳",
+          "Year 12 + IELTS 5.5"
+        ]
+      },
+      {
+        "tag": "Build on it",
+        "title": "Bachelor",
+        "body": "가격과 품질을 모두 고려하여 신중히 선택한 5개의 대학 및 대학교에서 학업을 이어갈 수 있습니다.",
+        "points": [
+          "선정된 기관 5곳",
+          "가격과 품질 균형"
+        ]
+      },
+      {
+        "tag": "Go further",
+        "title": "Masters & above",
+        "body": "석사 과정을 위한 5개의 대학을 선정했으며, 영주권 준비를 병행해 실제 취업 시장에 바로 진입할 수 있도록 합니다.",
+        "points": [
+          "선정된 대학 5곳",
+          "동시 PR 준비"
+        ]
+      },
+      {
+        "tag": "Settle in",
+        "title": "Work & migration",
+        "body": "등록된 이민 컨설턴트가 담당하는 취업 경로 및 광범위한 이민 컨설팅을 제안하고 지원합니다.",
+        "points": [
+          "취업 경로 조언",
+          "비자 및 이민 지원"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "우리가 하는 일",
+    "title": "두 가지 서비스, 하나의 *신뢰받는* 팀.",
+    "viewAll": "모든 서비스 보기",
+    "items": [
+      {
+        "title": "학생 에이전트",
+        "short": "저희 컨설턴트가 학업 계획을 세우고, 대학 선택을 도와드리며, 학생으로서 겪는 모든 일을 처리해드립니다.",
+        "long": "Faith Education 컨설턴트가 학업 계획을 세우고, 대학 선택을 도와드리며, 첫 상담부터 졸업 및 그 이후까지 학생 관련 모든 사항을 처리합니다."
+      },
+      {
+        "title": "이민 에이전트",
+        "short": "호주 비자에 관심이 있는 모든 분께 최신 정보와 최상의 지원을 제공합니다.",
+        "long": "호주 비자에 관심이 있는 모든 분을 돕습니다. 저희 컨설턴트가 비자 신청에 필요한 최상의 정보를 제공하고, 모든 서류를 꼼꼼히 검토합니다."
+      }
+    ],
+    "pageCrumb": "서비스",
+    "pageEyebrow": "우리 서비스",
+    "pageTitle": "귀하의 *호주 여정.*을 위한 완벽한 케어.",
+    "pageIntro": "첫 과정을 선택하든 영주권을 계획하든, 저희 컨설턴트가 모든 결정을 안내합니다.",
+    "overviewAria": "서비스 개요"
+  },
+  "benefits": {
+    "eyebrow": "왜 우리가 최고인지",
+    "title": "학생들이 Faith를 선택하는 이유",
+    "pageTitle": "포함된 내용, 모든 단계마다",
+    "items": [
+      {
+        "title": "360도 지원",
+        "body": "원하는 결과에 도달하도록 단계별 서비스를 제공하여 모든 필요를 돌봅니다."
+      },
+      {
+        "title": "투명한 서비스",
+        "body": "피드백과 설문조사를 통해 모든 수준에서 가시성과 책임성을 제공합니다."
+      },
+      {
+        "title": "공항 픽업 및 숙소",
+        "body": "도착 시 만나고 필요 시 숙소 마련을 도와드립니다."
+      },
+      {
+        "title": "환영 선물 가방",
+        "body": "호주 생활, 세금, 연금 및 건강보험 양식에 대한 실용적인 팁과 주요 구인 링크 및 전화번호를 제공합니다."
+      },
+      {
+        "title": "첫 주 필수품",
+        "body": "첫 주를 위한 $20 전화 카드와 첫 날 식음료를 제공합니다."
+      },
+      {
+        "title": "지속적인 지원",
+        "body": "기관과 긴급 요구 사항을 조율하고, 직업 및 역할을 제안하며, 법률 변경 사항을 지속적으로 업데이트합니다."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "우리 팀",
+    "title": "경험 풍부하고, 자격을 갖춘, *당신에게 투자합니다.*",
+    "teaserEyebrow": "팀을 만나보세요",
+    "teaserTitle": "*믿을 수 있는* 사람들",
+    "meetEveryone": "모두 만나기",
+    "pageCrumb": "우리에 대해",
+    "pageEyebrow": "우리에 대해",
+    "pageTitle": "*당신의 성공*을 이끄는 사람들",
+    "pageIntro": "학계, 상담가 및 이민 전문가가 하나의 신념으로 뭉칩니다: 올바른 안내가 삶을 바꾼다.",
+    "members": {
+      "donar-firman-rochmilijar": {
+        "role": "CEO & Founder",
+        "bio": "Donar는 자카르타에서 10년간 대학 강사였으며 인도네시아 교육부로부터 Lektor Madya(수석 강사) 학위를 받았습니다. Universitas Krisnadwipaya에서 Sarjana Ekonomi를 취득한 후 호주에서 University of Canberra의 행정학 졸업 디플로마, UNSW의 경영학 석사, Charles Sturt University의 MBA를 공부했습니다. 2012년 Newcastle University에서 경영학 박사 과정을 시작했으며, 리더십·경영·마케팅 고급 디플로마와 교육·훈련·프로젝트 관리 자격을 보유하고 있습니다."
+      },
+      "liny-suryati": {
+        "role": "General Manager & Qualified Education Agent Counsellor",
+        "bio": "Liny는 Qualified Education Agent Counsellor(QEAC 인증)이며, 호주 대학 및 컬리지와의 네트워크를 통해 학생 비자 조직·준비에 뛰어난 역량을 인정받고 있습니다. 학생 요구와 기관 정책을 모두 이해하며 비자 승인율이 매우 높습니다. 학생과 학부모 모두에게 사랑받는 상담가입니다."
+      },
+      "ares-pasaribu": {
+        "role": "Marketing Manager",
+        "bio": "Ares는 STEKPI Jakarta에서 재무학 Sarjana Ekonomi를, Curtin University(퍼스)에서 재무학 석사를 취득했습니다. 자카르타에서 5년 이상 은행가로, 이후 5년간 보험 전문가로 근무했으며, 호주에서 10년 넘게 강의와 상담을 진행해 왔습니다. 호주와 인도네시아의 인도네시아 기독교 커뮤니티에서도 널리 알려져 있습니다."
+      },
+      "eddy-widjaja": {
+        "role": "Marketing Manager",
+        "bio": "Eddy는 아시아 태평양 지역의 주요 기업에서 약 25년간 고위 경영진으로 일했으며, 2015년 10월 Faith Education에 합류했습니다. 2010년부터 Western Sydney University, Torrens University 및 TAFE에서 강의했으며, 교육과 훈련을 통해 사람들을 성장시키는 일에 열정을 가지고 있습니다."
+      },
+      "ravi-s": {
+        "role": "Registered Migration Consultant",
+        "bio": "Ravi는 Faith Education의 모든 비자 신청 서류를 담당하는 등록 이민 컨설턴트로, 각 문서를 세심히 검토합니다. 이민 컨설팅 분야에서 오랜 경험을 쌓았으며 OZSEA의 이사 역할도 수행해 왔으며, 초기부터 Faith 가족의 일원입니다."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "준비가 되면 언제든지",
+    "title": "함께 *호주*에서의 미래를 설계해요.",
+    "body": "현재 위치와 목표를 알려 주세요. 길을 안내해 드립니다.",
+    "button": "문의하기"
+  },
+  "contact": {
+    "crumb": "문의",
+    "eyebrow": "문의하기",
+    "title": "*대화*를 시작해 봅시다",
+    "intro": "시드니 또는 자카르타 사무실에 방문하시거나 문의를 보내주시면 회신해 드립니다.",
+    "formEyebrow": "문의하기",
+    "formTitle": "계획을 알려 주세요",
+    "offices": {
+      "Sydney": "Sydney",
+      "Jakarta": "Jakarta"
+    },
+    "mapTitle": "Faith Education 사무실 위치, 264 George St, Sydney",
+    "mapAria": "시드니 사무실 지도"
+  },
+  "form": {
+    "name": "Full name",
+    "namePh": "Your name",
+    "email": "Email",
+    "emailPh": "you@example.com",
+    "phone": "Phone / WhatsApp (optional)",
+    "interest": "I'm interested in",
+    "interestPh": "Select a topic",
+    "interests": {
+      "study": "호주 유학 (학생 에이전트)",
+      "migration": "비자 및 이민 컨설팅",
+      "pr": "영주권 경로",
+      "other": "기타"
+    },
+    "message": "Your message",
+    "messagePh": "학업 계획, 일정 및 질문을 알려 주세요.",
+    "consentA": "Faith Education이 귀하의 문의에 대해 연락하는 것에 동의합니다, 다음에 따라",
+    "consentLink": "privacy policy",
+    "submit": "Submit enquiry",
+    "sending": "Sending…",
+    "successTitle": "Thank you.",
+    "successBody": "Your enquiry has reached us. A member of the Faith Education team will be in touch shortly.",
+    "checkFields": "Please check the highlighted fields.",
+    "sendFailed": "Sorry, we couldn't send your enquiry. Please email or call us directly.",
+    "errors": {
+      "name": "Please enter your full name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Phone numbers may only contain digits, spaces, + ( ) and -.",
+      "interest": "Please choose a topic.",
+      "message": "Please tell us a little more (at least 10 characters, at most 2000).",
+      "consent": "Please agree so we can contact you about your enquiry."
+    }
+  },
+  "privacy": {
+    "crumb": "개인정보 보호",
+    "eyebrow": "법률",
+    "title": "개인정보 및 쿠키 정책",
+    "notice": "플레이스홀더 텍스트: 출시 전 기존 웹사이트에서 사용하는 정책(또는 법률 고문이 검토한 정책)으로 이 페이지를 교체하십시오.",
+    "sections": [
+      {
+        "title": "수집하는 정보",
+        "body": "문의하실 때 제공하신 상세 정보(이름, 이메일, 전화번호 및 메시지)를 수집하여 문의에 답변하고 학생 및 이민 서비스를 제공할 수 있습니다."
+      },
+      {
+        "title": "사용 목적",
+        "body": "귀하의 정보를 오직 문의에 답변하고 요청하신 서비스를 제공하기 위해서만 사용합니다. 개인 정보를 판매하지 않습니다."
+      },
+      {
+        "title": "쿠키",
+        "body": "이 웹사이트는 광고 또는 추적 쿠키를 사용하지 않습니다. 사이트 작동을 위해 필수 쿠키가 사용될 수 있습니다."
+      }
+    ],
+    "contactTitle": "연락처",
+    "contactBody": "개인정보 보호에 관한 질문이 있나요? 이메일"
+  },
+  "notFound": {
+    "eyebrow": "오류 404",
+    "title": "페이지 *찾을 수 없음*",
+    "body": "찾으시는 페이지가 이동했거나 존재하지 않습니다.",
+    "back": "홈으로 돌아가기"
+  },
+  "chat": {
+    "title": "Faith Concierge",
+    "status": "보통 즉시 회신합니다",
+    "open": "채팅 시작",
+    "close": "채팅 닫기",
+    "welcome": "안녕하세요, Faith Education에 오신 것을 환영합니다. 호주 유학, 비자, 서비스 또는 상담 예약 중 무엇을 도와드릴까요?",
+    "placeholder": "코스, 비자, 서비스 등에 대해 문의하세요…",
+    "send": "보내기",
+    "suggestions": [
+      "360도 지원은 어떻게 이루어지나요?",
+      "입학 요건은 무엇인가요?",
+      "학생 비자 지원을 해주시나요?",
+      "상담 예약은 어떻게 하나요?"
+    ],
+    "error": "죄송합니다, 문제가 발생했습니다. 다시 시도하시거나 findoeducation@gmail.com 으로 연락해 주세요.",
+    "disclaimer": "AI 어시스턴트입니다. 비자나 법률 상담은 컨설턴트와 상의해 주세요.",
+    "typing": "입력 중",
+    "whatsapp": "WhatsApp으로 채팅",
+    "whatsappMessage": "안녕하세요 Faith Education, 호주 유학에 대해 더 알고 싶습니다."
+  },
+  "language": {
+    "label": "언어",
+    "choose": "언어 선택"
+  }
+}

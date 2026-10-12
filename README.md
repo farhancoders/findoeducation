@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Faith Education: website redesign
 
-## Getting Started
-
-First, run the development server:
+Redesign of findoeducation.com.au in the original rust-brown brand colours, with 9 languages and an AI concierge. Built with **Next.js 16** (App Router, Turbopack, Cache Components), **React 19**, **TypeScript**, **Tailwind CSS v4** and **Zod**.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+  app/                      routes (kept identical to the old site's URLs for SEO)
+    page.tsx                /
+    our-services/           /our-services
+    who-are-we/             /who-are-we
+    contact-us/             /contact-us
+    privacy-and-cookies-policy/
+    layout.tsx              fonts, global metadata, JSON-LD, header/footer
+    sitemap.ts robots.ts manifest.ts not-found.tsx
+    icon.png apple-icon.png opengraph-image.png twitter-image.png
+  components/
+    layout/                 header (client), footer
+    sections/               hero, pathways, benefits, team, enquiry-form, ...
+    ui/                     icons, reveal (scroll animation), json-ld
+  actions/enquiry.ts        server action: validate + send enquiry
+  lib/
+    site.ts                 ALL site content + contact details (edit here)
+    validation.ts           Zod schema for the enquiry form
+    structured-data.ts      schema.org JSON-LD builders
+public/images/              original photos + recoloured logo variants
+scripts/make-brand-assets.py  regenerates logo variants, icons and OG image
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configuration (`.env.local`)
 
-## Learn More
+| Variable | Purpose |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Production URL, used for canonical, sitemap, OG |
+| `GROQ_API_KEYS` | Comma-separated Groq keys for the chatbot (round-robin + failover). Server-side only |
+| `GROQ_MODEL` | Chat model (default `openai/gpt-oss-120b`) |
+| `RESEND_API_KEY` | Enables real email delivery of enquiries via Resend (otherwise logged to the server console) |
+| `ENQUIRY_TO` / `ENQUIRY_FROM` | Recipient / verified sender |
 
-To learn more about Next.js, take a look at the following resources:
+## Languages & chatbot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Routes are `/<lang>/...` for `en id ru fr it es zh ja ko`. `src/proxy.ts` redirects `/` and old un-prefixed URLs to the visitor's saved/browser language.
+- All copy lives in `src/dictionaries/<lang>.json`. Edit `en.json`, then regenerate the others with `node scripts/translate.mjs [id fr ...]` (uses Groq, review the output).
+- The floating language button (bottom-left) switches locale and remembers it in a cookie. hreflang + a multi-language sitemap are generated automatically.
+- The chatbot (`src/components/chat`, `src/app/api/chat/route.ts`) streams answers from Groq, grounded in `src/lib/chat-knowledge.ts`, answers in the site language by default (or the language the visitor writes in), is rate-limited per IP and never exposes the API keys to the browser.
+- Brand colours are tokens in `src/app/globals.css` (`brand-*`, `accent-*`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Before launch (checklist)
 
-## Deploy on Vercel
+- [ ] Replace the placeholder text in `privacy-and-cookies-policy/page.tsx` with the real policy.
+- [ ] Confirm Liny Suryati's Jakarta number (old site shows both `...5300` and `...6300`).
+- [ ] Add a photo for Ravi S (the old site only had a placeholder silhouette; initials are shown instead).
+- [ ] Add registration numbers (MARA / QEAC) to the footer and team bios.
+- [ ] Review non-English translations with a native speaker; set `GROQ_API_KEYS` on the host.
+- [ ] Set `RESEND_API_KEY`, and serve the domain over valid HTTPS.
+- [ ] Add Google Search Console verification and analytics if wanted.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## SEO included
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Per-page `<title>`/description/canonical/Open Graph, `sitemap.xml`, `robots.txt`, web manifest, JSON-LD (Organization, WebSite, BreadcrumbList, Person), semantic landmarks, skip link, alt text, optimised `next/image`, `next/font` (no layout shift), static prerendering of every page.
