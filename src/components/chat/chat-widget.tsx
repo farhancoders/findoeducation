@@ -168,7 +168,7 @@ export function ChatWidget() {
           rel="noopener noreferrer"
           aria-label={c.whatsapp}
           title={c.whatsapp}
-          className="grid size-14 place-items-center rounded-full bg-[#25D366] text-white shadow-[0_15px_40px_-10px_rgba(37,211,102,0.7)] transition hover:-translate-y-0.5 hover:brightness-105"
+          className="grid size-14 place-items-center rounded-full bg-brand-700 text-accent-300 shadow-[0_15px_40px_-10px_rgba(58,16,9,0.7)] ring-1 ring-accent-500/40 transition hover:-translate-y-0.5 hover:bg-brand-800"
         >
           <WhatsApp width={28} height={28} />
         </a>
