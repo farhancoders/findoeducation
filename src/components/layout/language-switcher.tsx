@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { LOCALES, LOCALE_COOKIE, type Locale } from "@/lib/i18n";
 import { useI18n } from "@/components/i18n-provider";
@@ -14,7 +14,6 @@ function rememberLocale(code: Locale) {
 export function LanguageSwitcher() {
   const { lang, t } = useI18n();
   const pathname = usePathname();
-  const router = useRouter();
   const [open, setOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
 
@@ -37,7 +36,10 @@ export function LanguageSwitcher() {
     if (code === lang) return;
     rememberLocale(code);
     const rest = pathname.replace(new RegExp(`^/${lang}(?=/|$)`), "");
-    router.push(`/${code}${rest}${window.location.hash}`);
+    // Full page load on purpose: Next keeps previously visited routes mounted (hidden) and a fresh load
+    // guarantees the <html lang>, fonts, chat and form all start cleanly in the new language.
+    // eslint-disable-next-line @next/next/no-location-assign-relative-destination
+    window.location.assign(`/${code}${rest}${window.location.search}${window.location.hash}`);
   }
 
   return (

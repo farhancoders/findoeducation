@@ -83,7 +83,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     <html
       lang={localeMeta(lang).html}
       className={`${display.variable} ${sans.variable}`}
-      suppressHydrationWarning
+      data-scroll-behavior="smooth"
     >
       <head>
         {CJK_FONT_CSS[lang] && (
@@ -93,8 +93,6 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <link rel="stylesheet" href={CJK_FONT_CSS[lang]} />
           </>
         )}
-        {/* Enables scroll-reveal animations only when JS is available */}
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
       <body className="flex min-h-dvh flex-col">
         <I18nProvider

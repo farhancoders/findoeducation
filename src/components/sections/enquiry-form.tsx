@@ -89,7 +89,7 @@ export function EnquiryForm() {
           <input id="phone" name="phone" type="tel" autoComplete="tel" defaultValue={val.phone} className={field} placeholder="+62 ..." {...aria("phone")} />
         </Field>
         <Field id="interest" label={f.interest} error={err.interest}>
-          <select id="interest" name="interest" required defaultValue={val.interest ?? ""} className={field} {...aria("interest")}>
+          <select key={val.interest ?? "none"} id="interest" name="interest" required defaultValue={val.interest ?? ""} className={field} {...aria("interest")}>
             <option value="" disabled>
               {f.interestPh}
             </option>

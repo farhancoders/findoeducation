@@ -97,23 +97,25 @@
   }
 }
 
-/* Scroll reveal (progressive enhancement: content is visible without JS) */
-.js .reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition:
-    opacity 0.9s var(--ease-luxe),
-    transform 0.9s var(--ease-luxe);
-  transition-delay: var(--reveal-delay, 0ms);
-}
-.js .reveal.is-visible {
-  opacity: 1;
-  transform: none;
-}
-@media (prefers-reduced-motion: reduce) {
-  .js .reveal {
+/* Scroll reveal. Progressive enhancement: only hide content when scripting is available, so it is never stuck invisible. */
+@media (scripting: enabled) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition:
+      opacity 0.9s var(--ease-luxe),
+      transform 0.9s var(--ease-luxe);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .reveal.is-visible {
     opacity: 1;
     transform: none;
-    transition: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }

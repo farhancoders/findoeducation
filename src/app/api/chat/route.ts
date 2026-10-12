@@ -1,4 +1,5 @@
 import { buildSystemPrompt } from "@/lib/chat-knowledge";
+import { getDictionary } from "@/lib/dictionaries";
 import { hasLocale, type Locale } from "@/lib/i18n";
 
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
@@ -77,7 +78,7 @@ export async function POST(request: Request) {
     temperature: 0.4,
     max_completion_tokens: 900,
     reasoning_effort: "low",
-    messages: [{ role: "system", content: buildSystemPrompt(parsed.lang) }, ...parsed.messages],
+    messages: [{ role: "system", content: buildSystemPrompt(parsed.lang, (await getDictionary(parsed.lang)).nav.contact) }, ...parsed.messages],
   });
   if (!upstream) return Response.json({ error: "upstream" }, { status: 502 });
 

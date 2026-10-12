@@ -47,7 +47,7 @@ export function Header() {
     >
       <div className="container-x flex h-20 items-center justify-between">
         <Link href={localePath(lang)} aria-label={t.nav.homeAria} className="flex items-center gap-3">
-          <Image src="/images/mark-brand.png" alt="" width={44} height={44} className="h-11 w-auto" priority />
+          <Image src="/images/mark-brand.png" alt="" width={44} height={44} className="h-11" style={{ width: "auto" }} priority />
           <span className="leading-none">
             <span className="block font-display text-2xl font-semibold tracking-[0.14em] text-brand-800">FAITH</span>
             <span className="block text-[0.62rem] font-semibold uppercase tracking-[0.42em] text-brand-700">
