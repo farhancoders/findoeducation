@@ -1,8 +1,28 @@
+const FALLBACK_URL = "https://findoeducation.com.au";
+
+/** Resolves the public origin; tolerates empty/invalid env values and falls back to the Vercel URL, then the live domain. */
+function resolveSiteUrl() {
+  const candidates = [
+    process.env.NEXT_PUBLIC_SITE_URL,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL && `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
+  ];
+  for (const c of candidates) {
+    const value = c?.trim();
+    if (!value) continue;
+    try {
+      return new URL(/^https?:\/\//.test(value) ? value : `https://${value}`).origin;
+    } catch {
+      /* try the next candidate */
+    }
+  }
+  return FALLBACK_URL;
+}
+
 /** Language-neutral site facts. All translatable copy lives in src/dictionaries/*.json */
 export const SITE = {
   name: "Faith Education",
   legalName: "Faith Indo Aust Education Services Pty Ltd",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://findoeducation.com.au",
+  url: resolveSiteUrl(),
   email: "findoeducation@gmail.com",
   phone: "+61 422 049 489",
   phoneHref: "tel:+61422049489",
