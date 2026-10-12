@@ -1,11 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import {
-  Lora,
-  Manrope,
-  Noto_Serif_JP,
-  Noto_Serif_KR,
-  Noto_Serif_SC,
-} from "next/font/google";
+import { Lora, Manrope } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { Header } from "@/components/layout/header";
@@ -34,10 +28,13 @@ const sans = Manrope({
   display: "swap",
 });
 
-/* CJK serif for headings. Google serves these in unicode-range slices, so only the glyphs a page uses are downloaded. */
-const serifSC = Noto_Serif_SC({ variable: "--font-serif-sc", weight: ["500", "600"], display: "swap", preload: false });
-const serifJP = Noto_Serif_JP({ variable: "--font-serif-jp", weight: ["500", "600"], display: "swap", preload: false });
-const serifKR = Noto_Serif_KR({ variable: "--font-serif-kr", weight: ["500", "600"], display: "swap", preload: false });
+/* CJK headings use Noto Serif, loaded from Google Fonts only on zh/ja/ko pages (served in unicode-range slices).
+   Not via next/font: its hundreds of CJK slices break the Turbopack build on Vercel. */
+const CJK_FONT_CSS: Partial<Record<string, string>> = {
+  zh: "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600&display=swap",
+  ja: "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap",
+  ko: "https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600&display=swap",
+};
 
 export function generateStaticParams() {
   return LOCALES.map((l) => ({ lang: l.code }));
@@ -85,10 +82,17 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   return (
     <html
       lang={localeMeta(lang).html}
-      className={`${display.variable} ${sans.variable} ${serifSC.variable} ${serifJP.variable} ${serifKR.variable}`}
+      className={`${display.variable} ${sans.variable}`}
       suppressHydrationWarning
     >
       <head>
+        {CJK_FONT_CSS[lang] && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link rel="stylesheet" href={CJK_FONT_CSS[lang]} />
+          </>
+        )}
         {/* Enables scroll-reveal animations only when JS is available */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>

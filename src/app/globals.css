@@ -28,13 +28,13 @@
 
 /* CJK headings use a matching Noto Serif; Latin glyphs still come from Lora. */
 :lang(zh-Hans) {
-  --font-display: var(--font-display-latin), var(--font-serif-sc), "Songti SC", serif;
+  --font-display: var(--font-display-latin), "Noto Serif SC", "Songti SC", serif;
 }
 :lang(ja) {
-  --font-display: var(--font-display-latin), var(--font-serif-jp), "Hiragino Mincho ProN", serif;
+  --font-display: var(--font-display-latin), "Noto Serif JP", "Hiragino Mincho ProN", serif;
 }
 :lang(ko) {
-  --font-display: var(--font-display-latin), var(--font-serif-kr), "Batang", serif;
+  --font-display: var(--font-display-latin), "Noto Serif KR", "Batang", serif;
 }
 
 @layer base {
