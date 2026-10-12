@@ -46,7 +46,7 @@ scripts/make-brand-assets.py  regenerates logo variants, icons and OG image
 
 ## Languages & chatbot
 
-- Routes are `/<lang>/...` for `en id ru fr it es zh ja ko`. `src/proxy.ts` redirects `/` and old un-prefixed URLs to the visitor's saved/browser language.
+- Routes are `/<lang>/...` for `en id ru fr it es zh ja ko`. `src/proxy.ts` redirects `/` and old un-prefixed URLs to English (the default), or to the language the visitor picked earlier (cookie). The browser language is ignored.
 - All copy lives in `src/dictionaries/<lang>.json`. Edit `en.json`, then regenerate the others with `node scripts/translate.mjs [id fr ...]` (uses Groq, review the output).
 - The floating language button (bottom-left) switches locale and remembers it in a cookie. hreflang + a multi-language sitemap are generated automatically.
 - The chatbot (`src/components/chat`, `src/app/api/chat/route.ts`) streams answers from Groq, grounded in `src/lib/chat-knowledge.ts`, answers in the site language by default (or the language the visitor writes in), is rate-limited per IP and never exposes the API keys to the browser.
